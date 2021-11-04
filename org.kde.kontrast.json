@@ -17,8 +17,8 @@
          "sources": [
             {
                "type": "archive",
-               "url": "https://download.kde.org/stable/release-service/21.08.2/src/kontrast-21.08.2.tar.xz",
-               "sha256": "8abfecb1d974fbadc1507b07fef8a88d28d163644394ef38e4882099df9cf58a"
+               "url": "https://download.kde.org/stable/release-service/21.08.3/src/kontrast-21.08.3.tar.xz",
+               "sha256": "e9b07632105ae719f30f2efcaf9b13ac757b8e64eed47d5539612d35997bc4fb"
             }
          ]
       }
