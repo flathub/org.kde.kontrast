@@ -18,7 +18,13 @@
             {
                "type": "archive",
                "url": "https://download.kde.org/stable/release-service/21.12.3/src/kontrast-21.12.3.tar.xz",
-               "sha256": "b47b9224c951163ba8cd27ede6fee148ce6938aa089dc1ff2c1705ec6a3ae2e6"
+               "sha256": "b47b9224c951163ba8cd27ede6fee148ce6938aa089dc1ff2c1705ec6a3ae2e6",
+               "x-checker-data": {
+                  "type": "anitya",
+                  "project-id": 8763,
+                  "stable-only": true,
+                  "url-template": "https://download.kde.org/stable/release-service/$version/src/kontrast-$version.tar.xz"
+              }
             }
          ]
       }
