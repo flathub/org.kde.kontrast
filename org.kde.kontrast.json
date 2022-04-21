@@ -1,32 +1,32 @@
 {
-   "id": "org.kde.kontrast",
-   "runtime": "org.kde.Platform",
-   "runtime-version": "5.15-21.08",
-   "sdk": "org.kde.Sdk",
-   "command": "kontrast",
-   "finish-args": [
-      "--share=ipc",
-      "--socket=fallback-x11",
-      "--socket=wayland",
-      "--device=dri"
-   ],
-   "modules": [
-      {
-         "name": "kontrast",
-         "buildsystem": "cmake-ninja",
-         "sources": [
-            {
-               "type": "archive",
-               "url": "https://download.kde.org/stable/release-service/21.12.3/src/kontrast-21.12.3.tar.xz",
-               "sha256": "b47b9224c951163ba8cd27ede6fee148ce6938aa089dc1ff2c1705ec6a3ae2e6",
-               "x-checker-data": {
-                  "type": "anitya",
-                  "project-id": 8763,
-                  "stable-only": true,
-                  "url-template": "https://download.kde.org/stable/release-service/$version/src/kontrast-$version.tar.xz"
-              }
-            }
-         ]
-      }
-   ]
+    "id": "org.kde.kontrast",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-21.08",
+    "sdk": "org.kde.Sdk",
+    "command": "kontrast",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--device=dri"
+    ],
+    "modules": [
+        {
+            "name": "kontrast",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kontrast-22.04.0.tar.xz",
+                    "sha256": "0b57bc598f3ed36f1c507ca98f1b5ede7db6e3b6ac757c2bcc231f94e368f6db",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kontrast-$version.tar.xz"
+                    }
+                }
+            ]
+        }
+    ]
 }
