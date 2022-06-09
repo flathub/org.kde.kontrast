@@ -17,8 +17,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/kontrast-22.04.1.tar.xz",
-                    "sha256": "df7ef6f5fbbeef04526c5fcff6a6e4fe2ec4e6d5cb5825d5aba17c2f6756505d",
+                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/kontrast-22.04.2.tar.xz",
+                    "sha256": "812c25d399eb322b369753f8d242d8f0a04e03aceade7d33ffc1aa6988146f56",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
