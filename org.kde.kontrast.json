@@ -11,10 +11,23 @@
         "--device=dri"
     ],
     "modules": [
+       {
+            "name": "kirigami-addons",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.8.0.tar.xz",
+                    "sha256": "3741a940fa688f53c7d9bdf607b1c6991f6d690e9ce826e8c76794336c594bcf"
+                }
+            ]
+        },
         {
             "name": "kontrast",
             "buildsystem": "cmake-ninja",
             "sources": [
+
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/23.04.0/src/kontrast-23.04.0.tar.xz",
