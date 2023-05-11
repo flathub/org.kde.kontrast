@@ -11,7 +11,7 @@
         "--device=dri"
     ],
     "modules": [
-       {
+        {
             "name": "kirigami-addons",
             "buildsystem": "cmake-ninja",
             "builddir": true,
@@ -27,11 +27,10 @@
             "name": "kontrast",
             "buildsystem": "cmake-ninja",
             "sources": [
-
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kontrast-23.04.0.tar.xz",
-                    "sha256": "b1019d07c424963a01bd8c3c3afa72bf35c42fb1742b2e9258d7c7f62a131254",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kontrast-23.04.1.tar.xz",
+                    "sha256": "fb7a0d2955db1931f32557f08bd600ab3d8ca93aeb72234b828721f667304653",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
