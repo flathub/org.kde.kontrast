@@ -30,13 +30,55 @@
             ]
         },
         {
+            "name": "futuresql",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/futuresql/futuresql-0.1.1.tar.xz",
+                    "sha256": "e44ed8d5a9618b3ca7ba2983ed9c5f7572e6e0a5b199f94868834b71ccbebd43",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 368957,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/futuresql/futuresql-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "qcoro",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.9.0.tar.gz",
+                    "sha256": "cfaf6b778450f06adac4ce5e353eb6eae213a3b62b8c8740520d58cf9fe3ec1a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 236236,
+                        "stable-only": true,
+                        "url-template": "https://github.com/danvratil/qcoro/archive/refs/tags/v$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "kontrast",
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kontrast-23.04.3.tar.xz",
-                    "sha256": "22e9debd7456371f8c19d27eced7ac64b4c3978daaf34d450043aeb204db1c23",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kontrast-23.08.0.tar.xz",
+                    "sha256": "aa4b3beac42660e94d4fe59da3f6f88d1b2fd585590246017b578cb1d0141705",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
