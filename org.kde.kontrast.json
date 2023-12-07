@@ -60,8 +60,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.9.0.tar.gz",
-                    "sha256": "cfaf6b778450f06adac4ce5e353eb6eae213a3b62b8c8740520d58cf9fe3ec1a",
+                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.10.0.tar.gz",
+                    "sha256": "b7c8f00273ad27d85814bf4ec93eb6922c75656800a61d11854d36355a4a1aec",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 236236,
@@ -77,8 +77,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/kontrast-23.08.3.tar.xz",
-                    "sha256": "d8001e04c02cb356a4fda8f21cce72283d92f212b42ea0453de7f7b61c84dad8",
+                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/kontrast-23.08.4.tar.xz",
+                    "sha256": "d71d29221ba7db1bcd52e1e7ec369b272a58d0f7ee1d120d585b5a34e04c9fb0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
