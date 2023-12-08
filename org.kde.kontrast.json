@@ -77,8 +77,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/kontrast-23.08.3.tar.xz",
-                    "sha256": "d8001e04c02cb356a4fda8f21cce72283d92f212b42ea0453de7f7b61c84dad8",
+                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/kontrast-23.08.4.tar.xz",
+                    "sha256": "d71d29221ba7db1bcd52e1e7ec369b272a58d0f7ee1d120d585b5a34e04c9fb0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
