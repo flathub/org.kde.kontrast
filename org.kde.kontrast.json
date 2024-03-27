@@ -1,14 +1,14 @@
 {
     "id": "org.kde.kontrast",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "kontrast",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--socket=fallback-x11",
-        "--socket=wayland",
-        "--device=dri"
+        "--socket=wayland"
     ],
     "modules": [
         {
@@ -18,8 +18,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.11.0.tar.xz",
-                    "sha256": "05296c5afbe6804308bf9c0d2751f3b748b40d00fa784946d1dcdf3af4bffbad",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.0.1.tar.xz",
+                    "sha256": "9d013847efb0048c6a2799ee0ed281b14eee15314ac20d7fba853197e45f29b7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -34,7 +34,8 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=Release"
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DQT_MAJOR_VERSION=6"
             ],
             "sources": [
                 {
@@ -77,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kontrast-23.08.5.tar.xz",
-                    "sha256": "7e131a0e89773e88afdb17740998731b3d44d31485e736dcc7e29b11460ffdab",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kontrast-24.02.1.tar.xz",
+                    "sha256": "8d46c44ca3df3d835342149535c947da74d0bbe90e3b1ffab66e3f818b27e58c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
