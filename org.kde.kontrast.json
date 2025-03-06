@@ -57,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/kontrast-24.12.2.tar.xz",
-                    "sha256": "34cbf152bad6ff5f7ea21aa184f379523305f02f67470d58a418ec64e17e71f6",
+                    "url": "https://download.kde.org/stable/release-service/24.12.3/src/kontrast-24.12.3.tar.xz",
+                    "sha256": "ce38679ebc210fa90b1c3f1bf134d2b29b5a4f4b318e42a8c5646f75e1f169c1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
